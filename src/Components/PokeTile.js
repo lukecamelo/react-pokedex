@@ -1,7 +1,7 @@
 function PokeTile({name, num, img, type, weaknesses}) {
   return(
     <>
-      <div>
+      <div style={{margin: '1em', padding: '1em'}}>
         <h1>{name}</h1>
         <p><strong>type</strong></p>
         {type.map((type, key) => <p key={key}>{type}</p>)}
